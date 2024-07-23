@@ -438,8 +438,11 @@ a.active {
     width: 100%;
     float: left;
 }
-
+.timeline-event-icon{
+    width: 30px;
+}
 .timeline-event-icon img{
+    width: 100%;
     padding-bottom: 10px;
 }
 
@@ -448,7 +451,7 @@ a.active {
 }
 
 
-.timeline-event-copy .timeline-event-thumbnail:hover {
+.timeline-event-copy:hover .timeline-event-thumbnail{
     box-shadow: inset 40em 0 0 0 #D5EBFF;
 }
 
